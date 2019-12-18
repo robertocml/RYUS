@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    /* margin is spacing around elements */
+    margin: auto; 
+}
+
+
+.box-1 {
+    background-color: #333;
+    color: #fff;
+    border: 5px red solid;
+    border-width: 3px;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+
+}
+
+.box-1 h1{
+    text-align: center;
+}
+
+.box-1  p {
+    border: 3px blueviolet solid;
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+}
+
+
+.box-2 {
+    margin-top: 3rem;
+    border: blueviolet dashed 5px;
+    border-radius: 1rem;
+}
+
+.box-2 h1 {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+p {
+    padding: 1rem 1rem;
+
+}
+
+
+/* -----------NAVBAR---------- */
+
+
+
+.categories {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px burlywood solid;
+    padding:2rem;
+}
+
+.categories h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.categories ul {
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0rem 0rem;
+    overflow: hidden;
+    background-color: rosybrown;
+}
+
+.categories li {
+    float: left;
+   padding: 0.5rem 1rem;
+
+}
+
+.categories li a {
+    text-align: center;
+
+}   
+
+.categories li:hover {
+    color: royalblue;
+    background-color: #333;
+    
+
+}   
+
+a {
+    text-decoration: none;
+    color: white;
+}
+/* 
+---------------FORM--------------------- */
+.formdiv {
+    border: 5px solid blueviolet;
+    text-align: center;
+    margin-right: 9rem;
+    margin-left: 9rem;
+}
+
+.my-form {
+    
+}
+
+.my-form .form-group {
+    padding-bottom: 1rem;
+}
+
+.my-form label {
+    display: block;
+    margin-right: 7rem;
+}
+
+.my-form input {
+    border: cyan solid 1px;
+    border-radius: 1rem;
+}
+
+.my-form textarea {
+    border: cyan solid 1px;
+    border-radius: 1rem;
+    margin-left: 3.5rem;
+    margin-top: 0.5rem;
+
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    border: solid springgreen 1px;
+    padding: 10px;
+
+    box-sizing: border-box;
+}
+
+.test {
+    border: violet 3px solid;
+    padding: 1rem 1rem;
+    margin: 1rem 1rem;
+}
+
+.test h1 {
+    text-align: center;
+}
+
+.containerNavbar {
+    padding: 1rem 1rem;
+    background-color: #333;
+    overflow: hidden;
+
+}
+
+.containerNavbar ul {
+    list-style-type: none;
+    padding-bottom: 1rem;
+    display: inline;
+}
+
+.containerNavbar li a {
+    color: white;
+    float: left;
+    margin: 0 1rem;
+    background-color: #333;
+    font-size: 26px;
+}
+
+.containerNavbar li a:hover {
+    color: grey;
+}
+
+
+#main-text{
+    color: white;
+    background-color: #333;
+    padding: 2rem 2rem;
+    text-align: center;
+    
+}
+
+#search {
+    float: right;
+    margin-top: 0;
+    margin-right: 3rem;
+    background-color: grey;
+    height: 25px;
+    border-radius: 0.2rem;
+    padding: 3px 3px;
+}
+
+#searchInput {
+    float: right;
+    margin-top: 0;
+    margin-right: 10px;
+    height: 20px;
+    border-radius: 0.2rem;
+}
